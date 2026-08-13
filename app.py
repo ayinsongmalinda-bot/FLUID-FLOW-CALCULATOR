@@ -507,27 +507,27 @@ else:
 # INPUT VALIDATION & GUARDRAILS
 # -----------------------------------------------------------------------------
 if q_m3s <= 0.0:
-    st.error("⛔ **Invalid Input Error**: Volumetric flow rate Q must be strictly positive ($Q > 0$). Please correct the flow rate input.")
+    st.warning("⛔ **Invalid Input Error**: Volumetric flow rate Q must be strictly positive ($Q > 0$). Please correct the flow rate input.")
     st.stop()
 
 if diameter_m <= 0.0:
-    st.error("⛔ **Invalid Input Error**: Pipe internal diameter D must be strictly positive ($D > 0$). Please correct the diameter input.")
+    st.warning("⛔ **Invalid Input Error**: Pipe internal diameter D must be strictly positive ($D > 0$). Please correct the diameter input.")
     st.stop()
 
 if length_m <= 0.0:
-    st.error("⛔ **Invalid Input Error**: Pipe length L must be strictly positive ($L > 0$). Please correct the length input.")
+    st.warning("⛔ **Invalid Input Error**: Pipe length L must be strictly positive ($L > 0$). Please correct the length input.")
     st.stop()
 
 if rho_kg_m3 <= 0.0:
-    st.error("⛔ **Invalid Input Error**: Fluid density ρ must be strictly positive ($\rho > 0$). Please correct density input.")
+    st.warning("⛔ **Invalid Input Error**: Fluid density ρ must be strictly positive ($\rho > 0$). Please correct density input.")
     st.stop()
 
 if mu_pas <= 0.0:
-    st.error("⛔ **Invalid Input Error**: Dynamic viscosity μ must be strictly positive ($\mu > 0$). Please correct viscosity input.")
+    st.warning("⛔ **Invalid Input Error**: Dynamic viscosity μ must be strictly positive ($\mu > 0$). Please correct viscosity input.")
     st.stop()
 
 if roughness_m < 0.0:
-    st.error("⛔ **Invalid Input Error**: Absolute pipe roughness ε cannot be negative ($\varepsilon \ge 0$). Please correct roughness input.")
+    st.warning("⛔ **Invalid Input Error**: Absolute pipe roughness ε cannot be negative ($\varepsilon \ge 0$). Please correct roughness input.")
     st.stop()
 
 
