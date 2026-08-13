@@ -133,5 +133,6 @@ This application is configured for seamless deployment on **Streamlit Community 
 2. Connect repository to Streamlit Cloud dashboard.
 3. Set main file path to `app.py`.
 
-* **LIVE APP URL**: [TO BE ADDED AFTER DEPLOYMENT]
-* **GITHUB REPOSITORY URL**: [TO BE ADDED AFTER DEPLOYMENT]
+* **LIVE APP URL**: https://fluid-flow-calculator-rskn32ag5f4dtyetv84qhv.streamlit.app/
+* **GITHUB REPOSITORY URL**: https://github.com/ayinsongmalinda-bot/FLUID-FLOW-CALCULATOR
+
